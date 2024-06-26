@@ -322,7 +322,7 @@ img {
 
 .footer-studio {
     color: #f4f4fd;
-
+    display: inline-block;
 }
 
 .footer-web {
