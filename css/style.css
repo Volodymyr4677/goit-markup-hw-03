@@ -6,10 +6,22 @@ body {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
 }
 
 .header {
@@ -31,6 +43,7 @@ img {
 
 .header-container {
     display: flex;
+    align-items: center;
 }
 
 .nav {
@@ -78,6 +91,7 @@ img {
     letter-spacing: 0.02em;
     padding: 24px 0;
     color: #2e2f42;
+    display: block;
 }
 
 
@@ -91,6 +105,7 @@ img {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 
 }
 
@@ -123,7 +138,8 @@ img {
     color: #ffffff;
     max-width: 496px;
     display: block;
-
+    margin: auto;
+    padding-bottom: 48px;
 
 }
 
@@ -140,6 +156,8 @@ img {
     border: none;
     border-radius: 4px;
     display: block;
+    margin: auto;
+
 }
 
 .button-link:hover,
@@ -211,17 +229,17 @@ img {
 
 
 .team-list {
-    background-color: #FFFFFF;
+
     display: flex;
     gap: 24px;
-    margin: 0;
-    padding: 0;
+
 
 }
 
 .team-item {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
 
 }
 
@@ -285,8 +303,7 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin: 0;
-    padding: 0;
+
 
 }
 
@@ -332,7 +349,7 @@ img {
 }
 
 .footer-web {
-
+    color: #4d5ae5;
     margin-bottom: 16px;
     display: inline-block;
 }
@@ -341,5 +358,6 @@ img {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 
 }
