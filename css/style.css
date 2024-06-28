@@ -155,14 +155,13 @@ img {
     border: none;
     border-radius: 4px;
     display: block;
-    margin: 0 auto 48px;
+    margin: 0 auto;
 
 }
 
 .button-link:hover,
 .button-link:focus {
     background-color: #404BBF;
-
 }
 
 
