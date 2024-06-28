@@ -138,9 +138,7 @@ img {
     color: #ffffff;
     max-width: 496px;
     display: block;
-    margin: auto;
-    padding-bottom: 48px;
-    padding: auto;
+    margin: 0 auto 48px;
 
 }
 
@@ -157,14 +155,14 @@ img {
     border: none;
     border-radius: 4px;
     display: block;
-    margin: auto;
-    padding: auto;
+    margin: 0 auto 48px;
 
 }
 
 .button-link:hover,
 .button-link:focus {
     background-color: #404BBF;
+
 }
 
 
